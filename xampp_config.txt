@@ -1,0 +1,21 @@
+httpd-vhost.conf
+
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/yii2-starter-kit/frontend/web"
+    ServerName yii2-starter-kit
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/yii2-starter-kit/backend/web"
+    ServerName yii2-starter-kit-backend
+</VirtualHost>
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/yii2-starter-kit/storage/web"
+    ServerName yii2-starter-kit-storage
+</VirtualHost>
+
+-------------------------------------
+C:\Windows\System32\drivers\etc\hosts
+
+127.0.0.1 		yii2-starter-kit
+127.0.0.1 		yii2-starter-kit-backend
+127.0.0.1 		yii2-starter-kit-storage
